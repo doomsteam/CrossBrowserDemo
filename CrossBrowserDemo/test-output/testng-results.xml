@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-29T22:53:27 EST" name="Suite" finished-at="2020-12-29T22:53:40 EST" duration-ms="12792">
+    <groups>
+    </groups>
+    <test started-at="2020-12-29T22:53:27 EST" name="IETest" finished-at="2020-12-29T22:53:32 EST" duration-ms="4985">
+      <class name="com.CrossBrowseTest.CrossBrowserDemo">
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.CrossBrowseTest.CrossBrowserDemo@229d10bd]" started-at="2020-12-29T22:53:27 EST" name="launchApp" finished-at="2020-12-29T22:53:32 EST" duration-ms="4969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+      </class> <!-- com.CrossBrowseTest.CrossBrowserDemo -->
+    </test> <!-- IETest -->
+    <test started-at="2020-12-29T22:53:27 EST" name="FirefoxTest" finished-at="2020-12-29T22:53:37 EST" duration-ms="10283">
+      <class name="com.CrossBrowseTest.CrossBrowserDemo">
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.CrossBrowseTest.CrossBrowserDemo@2133814f]" started-at="2020-12-29T22:53:27 EST" name="launchApp" finished-at="2020-12-29T22:53:37 EST" duration-ms="10270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+      </class> <!-- com.CrossBrowseTest.CrossBrowserDemo -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2020-12-29T22:53:27 EST" name="ChromeTest" finished-at="2020-12-29T22:53:40 EST" duration-ms="12775">
+      <class name="com.CrossBrowseTest.CrossBrowserDemo">
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.CrossBrowseTest.CrossBrowserDemo@124c278f]" started-at="2020-12-29T22:53:27 EST" name="launchApp" finished-at="2020-12-29T22:53:40 EST" duration-ms="12761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+      </class> <!-- com.CrossBrowseTest.CrossBrowserDemo -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2020-12-29T22:53:27 EST" name="EdgeTest" finished-at="2020-12-29T22:53:40 EST" duration-ms="12792">
+      <class name="com.CrossBrowseTest.CrossBrowserDemo">
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.CrossBrowseTest.CrossBrowserDemo@4445629]" started-at="2020-12-29T22:53:27 EST" name="launchApp" finished-at="2020-12-29T22:53:40 EST" duration-ms="12778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+      </class> <!-- com.CrossBrowseTest.CrossBrowserDemo -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
